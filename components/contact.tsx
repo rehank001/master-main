@@ -34,7 +34,7 @@ export function Contact() {
               <Reveal delay={200}>
                 <div className="mt-8 flex flex-wrap items-center gap-3">
                   <a
-                    href="mailto:rehanhan.corp@gmail.com"
+                    href="mailto:rehankhan.corp@gmail.com"
                     className="group inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3.5 text-sm font-semibold text-accent-foreground transition-transform hover:scale-[1.03]"
                   >
                     <Mail className="size-4" />
@@ -52,6 +52,15 @@ export function Contact() {
                     <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </a>
                 </div>
+                <p className="mt-3 text-xs text-muted-foreground">
+                  Direct:{' '}
+                  <a
+                    href="mailto:rehankhan.corp@gmail.com"
+                    className="font-medium text-foreground underline-offset-4 hover:underline hover:text-accent transition-colors"
+                  >
+                    rehankhan.corp@gmail.com
+                  </a>
+                </p>
               </Reveal>
               <Reveal delay={260}>
                 <div className="mt-8">
@@ -65,7 +74,7 @@ export function Contact() {
 
             <Reveal delay={160}>
               <form
-                action="mailto:rehanhan.corp@gmail.com"
+                action="mailto:rehankhan.corp@gmail.com"
                 method="POST"
                 encType="text/plain"
                 className="rounded-2xl border border-border bg-background/60 p-6 backdrop-blur"
