@@ -149,7 +149,7 @@ export const SOCIAL_LINKS: SocialLinkItem[] = [
   {
     name: 'Email',
     label: 'Email',
-    href: 'mailto:maliktabish54352@gmail.com',
+    href: 'mailto:rehanhan.corp@gmail.com',
     icon: EmailIcon,
     isExternal: false,
   },
